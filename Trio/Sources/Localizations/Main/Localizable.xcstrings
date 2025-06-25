@@ -897,6 +897,12 @@
         }
       }
     },
+    "  ◦ A TBR higher than your scheduled rate will increase IOB" : {
+
+    },
+    "  ◦ A TBR lower than your scheduled rate will decrease IOB" : {
+
+    },
     " -  Manual Basal ⚠️" : {
       "comment" : "Current Manual Temp basal",
       "extractionState" : "manual",
@@ -10104,6 +10110,9 @@
         }
       }
     },
+    "• Boluses (including SMBs)" : {
+
+    },
     "• Carb Ratio" : {
       "localizations" : {
         "bg" : {
@@ -13708,6 +13717,12 @@
         }
       }
     },
+    "• Manual boluses you enter yoursef" : {
+
+    },
+    "• Manual temporary basal rates you set yourself" : {
+
+    },
     "• Maximum Duration" : {
       "localizations" : {
         "bg" : {
@@ -15191,6 +15206,9 @@
           }
         }
       }
+    },
+    "• Temporary Basal Rates (TBRs)" : {
+
     },
     "• xDrip4iOS" : {
       "localizations" : {
@@ -44141,6 +44159,9 @@
         }
       }
     },
+    "Avg" : {
+
+    },
     "Axis" : {
       "localizations" : {
         "bg" : {
@@ -56256,6 +56277,7 @@
       }
     },
     "CGM Connection Trace Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -58214,6 +58236,9 @@
           }
         }
       }
+    },
+    "Choose a value that covers your highest insulin needs — think about a correction for a very high glucose reading plus your biggest meal bolus. This gives Trio room to work while keeping you safe." : {
+
     },
     "Choose Calendar" : {
       "localizations" : {
@@ -67812,6 +67837,9 @@
         }
       }
     },
+    "DayEnd" : {
+
+    },
     "days" : {
       "comment" : "Total number of days of data for HbA1c estimation, part 2/2",
       "extractionState" : "manual",
@@ -68032,6 +68060,9 @@
           }
         }
       }
+    },
+    "DayStart" : {
+
     },
     "Deactivate Pod" : {
       "extractionState" : "manual",
@@ -82331,6 +82362,9 @@
           }
         }
       }
+    },
+    "Distribution (by day)" : {
+
     },
     "Do not enable this feature until you have optimized your CR (carb ratio) setting." : {
       "localizations" : {
@@ -113912,6 +113946,7 @@
       }
     },
     "If a calculated amount exceeds this limit, the suggested and / or delivered amount will be reduced so that active insulin on board (IOB) will not exceed this safety limit." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -114228,6 +114263,9 @@
           }
         }
       }
+    },
+    "If delivering more insulin would push your IOB above this limit, Trio will reduce or skip the dose to stay within the safety boundary. This applies to SMBs, TBRs, and the recommendation from the bolus calculator." : {
+
     },
     "If Half Basal Exercise Target is %@ %@, a Temp Target of %@ %@ uses an Autosens Ratio of 1.09. A Temp Target of %@ %@ uses an Autosens Ratio of 1.33." : {
       "localizations" : {
@@ -136582,6 +136620,9 @@
         }
       }
     },
+    "Max IOB sets a safety limit on how much insulin Trio can automatically deliver above your scheduled basal rates. This prevents the system from giving too much insulin at once." : {
+
+    },
     "Max Meal Absorption Time" : {
       "localizations" : {
         "bg" : {
@@ -139698,6 +139739,7 @@
       }
     },
     "Meal to Hypoglycemia/Hyperglycemia Distribution Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -139909,6 +139951,9 @@
           }
         }
       }
+    },
+    "Med" : {
+
     },
     "Median" : {
       "comment" : "Median BG",
@@ -140881,6 +140926,9 @@
           }
         }
       }
+    },
+    "Mid Limit" : {
+
     },
     "Middleware" : {
       "extractionState" : "manual",
@@ -146736,6 +146784,9 @@
         }
       }
     },
+    "No glucose data available for this day" : {
+
+    },
     "No Glucose Notifications will be triggered." : {
       "localizations" : {
         "bg" : {
@@ -146841,6 +146892,9 @@
           }
         }
       }
+    },
+    "No glucose readings found." : {
+
     },
     "No glucose readings." : {
       "localizations" : {
@@ -152131,7 +152185,11 @@
         }
       }
     },
+    "Note: This setting must be greater than 0 for any automatic insulin dosing by Trio (unless you currently have negative IOB)." : {
+
+    },
     "Note: This setting must be greater than 0 for any automatic insulin dosing by Trio." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -152344,6 +152402,7 @@
       }
     },
     "Note: You can still manually bolus above this limit, but the suggested bolus amount will never exceed this in the bolus calculator." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -161449,6 +161508,9 @@
           }
         }
       }
+    },
+    "Percentile (by day)" : {
+
     },
     "Period:" : {
       "localizations" : {
@@ -178918,6 +178980,12 @@
         }
       }
     },
+    "SelectedDate" : {
+
+    },
+    "SelectedValue" : {
+
+    },
     "Selection" : {
       "localizations" : {
         "bg" : {
@@ -194687,6 +194755,7 @@
       }
     },
     "Successful Loop" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -194791,6 +194860,9 @@
           }
         }
       }
+    },
+    "Successful Loops" : {
+
     },
     "Suggested at" : {
       "comment" : "Headline in suggested pop up (at: at what time)",
@@ -197146,6 +197218,12 @@
           }
         }
       }
+    },
+    "Tap a percentile or tap and hold a bar to reveal more details. Swipe to scroll through time." : {
+
+    },
+    "Tap and hold a bar in the chart to reveal more details. Swipe to scroll through time." : {
+
     },
     "Tap and hold a bar to reveal more details." : {
       "localizations" : {
@@ -209549,6 +209627,7 @@
       }
     },
     "This is the maximum amount of Insulin On Board (IOB) above profile basal rates from all sources - positive temporary basal rates, manual or meal boluses, and SMBs - that Trio is allowed to accumulate to address an above target glucose." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -211897,6 +211976,7 @@
       }
     },
     "This setting helps prevent delivering too much insulin at once. It’s typically a value close to the amount you might need for a very high blood sugar and the biggest meal of your life combined." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -218772,6 +218852,9 @@
         }
       }
     },
+    "Trio calculates your current Insulin On Board (IOB) from:" : {
+
+    },
     "Trio can automatically adapt insulin delivery based on inputs and glucose forecasts. Your algorithm settings play a major part in accurate and effective dosing." : {
       "localizations" : {
         "bg" : {
@@ -222272,6 +222355,7 @@
       }
     },
     "Trio Up-Time Chart" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -230372,7 +230456,11 @@
         }
       }
     },
+    "Very Low (<%@" : {
+
+    },
     "Very Low (<%@)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -232079,6 +232167,7 @@
       }
     },
     "Warning: This must be greater than 0 for any automatic temporary basal rates or SMBs to be given." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -233803,6 +233892,9 @@
           }
         }
       }
+    },
+    "What's NOT limited:" : {
+
     },
     "When \"Reduced Bolus\" is selected in the bolus calculator, the recommended bolus will be multiplied by the \"Reduced Bolus Percentage\" as well as the \"Recommended Bolus Percentage\"." : {
       "localizations" : {
